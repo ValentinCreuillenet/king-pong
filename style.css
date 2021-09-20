@@ -1,0 +1,39 @@
+.game{
+    margin:auto;
+    position: relative;
+    background-color: black;
+    width:510px;
+    height: 350px;
+    border-width: 1px;
+    box-sizing: border-box;
+}
+
+.player{
+    position:absolute;
+    background-color: white;
+    height: 50px;
+    width: 10px;
+    top: 150px;
+}
+
+.p1{
+    left:10px;
+}
+
+.p2{
+    right:10px;
+}
+
+.ball{
+    position:absolute;
+    width: 10px;
+    height: 10px;
+    background-color: orangered;
+    top: 170px;
+    left: 250px;
+}
+
+.score{
+    display: flex;
+    justify-content: space-evenly;
+}
